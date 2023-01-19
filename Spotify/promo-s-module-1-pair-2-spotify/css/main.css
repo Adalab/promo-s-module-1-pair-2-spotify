@@ -112,3 +112,52 @@ header {
     margin-left: 20px;
 
 }
+
+.footer{
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    height: 90px;
+    padding: 10px;
+    font-size: small;
+}
+
+.footer img{
+    width: 30px;
+}
+
+.españa{
+   position: absolute;
+   top: 20px;
+   right: 15px;
+   display: flex;
+   flex-direction: row;
+   column-gap: 10px;
+}
+
+.menu-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 93vw;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    
+
+}
+
+.a{
+    padding: 0px 5px;
+    color:white;
+    text-decoration: none;
+}
+
+.info{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+
+}
