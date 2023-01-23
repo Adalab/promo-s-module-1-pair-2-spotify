@@ -186,4 +186,37 @@ header {
     .menú {
         display: none;
     }
+
+    .white {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .white article{
+        max-width: 200px;
+    }
+
+    .titulo2{
+        width: 100%;
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 5rem;
+    }
+
+    .imagen {
+        width: 10rem;
+
+    }
+
+    .blue{
+        background-image: url(../images/premium_dancer.png);
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-position: right;
+
+    }
 }
